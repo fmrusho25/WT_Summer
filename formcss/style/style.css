@@ -1,0 +1,104 @@
+.button{
+    width:100px;
+    height: 60 px;
+    border-radius: 10px;
+    border: white;
+}
+
+.submit{
+    background-color: green;
+    color: white; 
+}
+.reset{
+    background-color: red;
+    color: black; 
+}
+
+.submit:hover{
+   background-color: white;
+   color: black; 
+}
+
+.reset:hover{
+    background-color: yellow;
+    color: blue; 
+ }
+
+div.sticky{
+
+    position: sticky;
+    top:0;
+    width:100%;
+    height:30px;
+    background-color:green;
+    color: white;
+}
+
+div.fixed{
+    position: fixed;
+    bottom:0px;
+    width:100%;
+    height:30px;
+    background-color:yellowgreen;
+    color: black;
+}
+
+a{
+
+    color: skyblue;
+
+}
+
+a:hover{
+    color: white;
+
+}
+
+.topnav {
+  
+    overflow: hidden;
+    background-color: yellowgreen;
+    color: black;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .topnav p {
+      float: right;
+      display: block;
+      color: blue;
+      text-align: left;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  div.middlecolumn {
+    position: relative;
+    left: 25%;
+    float: center;
+    width: 50%;
+  }
+  
+  .registrationBox {
+    background-color: yellowgreen;
+    border-left: 15px solid red;
+    border-right: 15px solid green;
+    padding: 50px;
+   
+  }
+
+  .active {
+    background-color: green;
+    color: white;
+  }
